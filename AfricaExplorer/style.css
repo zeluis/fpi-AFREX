@@ -1,0 +1,226 @@
+@font-face {
+  font-family: "fpiAfricaUNGeo";
+  src: url("fonts/fpiAfricaUNGeo.woff2") format("woff2"),
+    url("fonts/fpiAfricaUNGeo.ttf") format("truetype"),
+    url("fonts/fpiAfricaUNGeo.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+@font-palette-values --af-palette0 {
+  font-family: "fpiAfricaUNGeo";
+  base-palette: 0
+}
+.af-icon {
+  /* Use !important to prevent extensions from overriding this font. */
+  font-family: "fpiAfricaUNGeo" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.af-palette0 {
+  font-palette: --af-palette0;
+  color: currentColor;
+}
+.Africa-Map:before {
+  content: "\41";
+}
+.Africa-UN:before {
+  content: "\30";
+}
+.North_Africa:before {
+  content: "\31";
+}
+.West_Africa:before {
+  content: "\32";
+}
+.Central_Africa:before {
+  content: "\33";
+}
+.East_Africa:before {
+  content: "\34";
+}
+.South_Africa:before {
+  content: "\35";
+}
+.Algeria:before {
+  content: "\61";
+}
+.Angola:before {
+  content: "\62";
+}
+.Benin:before {
+  content: "\63";
+}
+.Botswana:before {
+  content: "\64";
+}
+.Burkina-Faso:before {
+  content: "\66";
+}
+.Burundi:before {
+  content: "\67";
+}
+.Cabo-Verde:before {
+  content: "\68";
+}
+.Cameroon:before {
+  content: "\69";
+}
+.Central-African-Republic-cf:before {
+  content: "\6a";
+}
+.Chad:before {
+  content: "\6b";
+}
+.Comoros:before {
+  content: "\6c";
+}
+.Congo-Democratic-Republic-of-the:before {
+  content: "\6d";
+}
+.Congo-Republic-of:before {
+  content: "\6e";
+}
+.Cote-dIvoire:before {
+  content: "\6f";
+}
+.Djibouti:before {
+  content: "\70";
+}
+.Egypt:before {
+  content: "\71";
+}
+.Equatorial-Guinea:before {
+  content: "\72";
+}
+.Eritrea:before {
+  content: "\73";
+}
+.Eswatini:before {
+  content: "\74";
+}
+.Ethiopia:before {
+  content: "\75";
+}
+.Gabon:before {
+  content: "\76";
+}
+.Gambia:before {
+  content: "\78";
+}
+.Ghana:before {
+  content: "\79";
+}
+.Guinea-Bissau:before {
+  content: "\77";
+}
+.Guinea:before {
+  content: "\7a";
+}
+.Kenya:before {
+  content: "\42";
+}
+.Lesotho:before {
+  content: "\43";
+}
+.Liberia:before {
+  content: "\44";
+}
+.Libya:before {
+  content: "\45";
+}
+.Madagasca:before {
+  content: "\46";
+}
+.Malawi-:before {
+  content: "\47";
+}
+.Mali:before {
+  content: "\48";
+}
+.Mauritania:before {
+  content: "\49";
+}
+.Mauritius:before {
+  content: "\4a";
+}
+.Morocco:before {
+  content: "\4b";
+}
+.Mozambique:before {
+  content: "\4c";
+}
+.Namibia:before {
+  content: "\4d";
+}
+.Niger:before {
+  content: "\4e";
+}
+.Nigeria:before {
+  content: "\4f";
+}
+.Rwanda:before {
+  content: "\50";
+}
+.Sao-Tome-and-Principe:before {
+  content: "\51";
+}
+.Senegal:before {
+  content: "\52";
+}
+.Seychelles:before {
+  content: "\53";
+}
+.Sierra-Leone:before {
+  content: "\54";
+}
+.Somalia:before {
+  content: "\55";
+}
+.South-Africa:before {
+  content: "\56";
+}
+.South-Sudan:before {
+  content: "\58";
+}
+.Sudan:before {
+  content: "\59";
+}
+.Tanzania:before {
+  content: "\57";
+}
+.Togo:before {
+  content: "\5a";
+}
+.Tunisia:before {
+  content: "\d6";
+}
+.Uganda:before {
+  content: "\dc";
+}
+.Westsahara:before {
+  content: "\c4";
+}
+.Zambia:before {
+  content: "\40";
+}
+.Zimbabwe:before {
+  content: "\a9";
+}
